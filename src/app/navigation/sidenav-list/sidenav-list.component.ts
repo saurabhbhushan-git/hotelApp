@@ -13,7 +13,7 @@ export class SidenavListComponent implements OnInit {
   ngOnInit() {
   }
 
-  onToggleClose(){
+  onToggleClose() {
     this.closeSideNavigation.emit();
   }
 
